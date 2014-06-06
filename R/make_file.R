@@ -5,6 +5,7 @@
 #'
 #' @author Cole C. Monnahan
 #' @author Kelli Faye Johnson
+#' @export
 
 make_file <- function(type=c("png","pdf", "none"), filename, width, height, res){
     ## Pass it file type and dimensions in inches. It creates file.

@@ -3,6 +3,7 @@
 #' A function stolen from Cole Monnahan
 #' @author Cole C. Monnahan
 #' @author Kelli Faye Johnson
+#' @export
 
 make_file_off <- function(){
     xx <- names(dev.cur())

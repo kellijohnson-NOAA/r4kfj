@@ -1,7 +1,7 @@
 Package: r4kfj
-Title: What the package does (short line)
+Title: Functions for Kelli Faye Johnson
 Version: 0.1
-Authors@R: "First Last <first.last@example.com> [aut, cre]"
+Authors@R: "Kelli Faye Johnson <kellifayejohnson@gmail.com> [aut, cre]"
 Description: What the package does (paragraph)
 Depends:
     R (>= 3.1.0)
