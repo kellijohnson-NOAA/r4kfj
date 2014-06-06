@@ -1,0 +1,16 @@
+\name{knitr_clean}
+\alias{knitr_clean}
+\title{Remove unwanted files after using knitr}
+\usage{
+knitr_clean(workingdir = NA)
+}
+\arguments{
+  \item{workingdir}{specifiy the working directory}
+}
+\description{
+Remove unwanted files after using knitr
+}
+\author{
+Kelli Faye Johnson
+}
+

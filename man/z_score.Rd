@@ -1,0 +1,18 @@
+\name{z_score}
+\alias{z_score}
+\title{Z score a data set}
+\usage{
+z_score(data, log.data = FALSE)
+}
+\arguments{
+  \item{data}{A data frame.}
+
+  \item{log.data}{Take the log of the response}
+}
+\description{
+Z score a data set
+}
+\author{
+Kelli Faye Johnson
+}
+

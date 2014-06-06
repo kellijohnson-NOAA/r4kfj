@@ -1,0 +1,32 @@
+\name{convert_pocenter}
+\alias{convert_pocenter}
+\title{Convert from Lat/Lon to Pacific Ocean centered Lat/Lon}
+\usage{
+convert_pocenter(data)
+}
+\arguments{
+  \item{data}{A data frame or matrix containing unique
+  columns for latitude and longitude. Names can be
+  abreviated as long as they contain "lon" and "lat"
+  (case-insensitive).}
+}
+\description{
+Methods for \code{convert_pocenter} to shift or re-center
+geographical coordinates for a Pacific Ocean view. All
+longitudes < 0 are added to 360, to avoid, for istance,
+parts of Alaska being plotted on the far right and left
+because they have values straddling 180 degrees. Using a
+projected coordinate reference system is to be prefered,
+but this function allows raw data (i.e. non SpatialPolgyon
+data) to be plotted appropriately. This can also be
+accompolished using \code{\link{sp::recenter}}. This idea
+was suggested by Greg Snow, and corresponds to the two
+world representations in the maps package.
+}
+\author{
+Kelli Faye Johnson
+}
+\seealso{
+\code{\link{sp::recenter}}
+}
+

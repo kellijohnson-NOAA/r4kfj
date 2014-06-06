@@ -1,0 +1,14 @@
+\name{define_projections}
+\alias{define_projections}
+\title{Define equal area and decimal lat/lon projections}
+\usage{
+define_projections()
+}
+\description{
+Defind the projections for i) cylindrical equal area and
+ii) decimal latitude and longitude.
+}
+\author{
+Kelli Faye Johnson
+}
+

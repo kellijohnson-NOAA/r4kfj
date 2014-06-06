@@ -1,0 +1,15 @@
+\name{make_file}
+\alias{make_file}
+\title{Initialize a file for printing plots}
+\usage{
+make_file(type = c("png", "pdf", "none"), filename, width, height, res)
+}
+\description{
+A function stolen from Cole Monnahan
+}
+\author{
+Cole C. Monnahan
+
+Kelli Faye Johnson
+}
+

@@ -1,0 +1,21 @@
+\name{create_logfile}
+\alias{create_logfile}
+\title{Initialize a log file for the current work}
+\usage{
+create_logfile(projectName, projectDir = NA)
+}
+\arguments{
+  \item{projectName}{A character value giving the name of
+  the project which will be used to create the file name.}
+
+  \item{projectDir}{A character value giving the working
+  directory for the project. The default is the current
+  working directory.}
+}
+\description{
+Initialize a log file for the current work
+}
+\author{
+Kelli Faye Johnson
+}
+
