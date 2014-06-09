@@ -15,7 +15,7 @@ create_logfile <- function(projectName, projectDir = NA) {
         setwd(projectDir)
     }
     my.filename <- paste0(projectName,
-                          "_logfile_",
+                          "_log_",
                           format(Sys.time(), "%Y%m%d%_%H%M%S"),
                       ".txt")
     sink(file = my.filename, append = FALSE)
