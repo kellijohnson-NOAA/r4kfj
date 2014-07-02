@@ -15,9 +15,9 @@ load_packages <- function(mypkg, install.quiet = TRUE) {
   results <- which(is.element(mypkg, current.packages) == FALSE)
   install.me <- mypkg[results]
   if(length(install.me) > 0){
-    r <- getOption("repos")
-    r["CRAN"] <- "http://cran.stat.sfu.ca"
-    options(repos) <- r
+    local({r <- getOption("repos"); 
+          r["CRAN"] <- "http://cran.stat.sfu.ca"; 
+          options(repos = r)})
     install.packages(install.me, quiet = install.quiet)
   }
   if(install.quiet == TRUE){
