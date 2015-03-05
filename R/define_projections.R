@@ -1,7 +1,8 @@
 #' Define equal area and decimal lat/lon projections
 #'
-#' Defind the projections for i) cylindrical equal area and 
-#' ii) decimal latitude and longitude. 
+#' Defind the projections for i) cylindrical equal area and
+#' ii) decimal latitude and longitude.
+#' importFrom sp CRS
 #' @author Kelli Faye Johnson
 #' @export
 
