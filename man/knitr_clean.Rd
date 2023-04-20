@@ -15,4 +15,3 @@ Remove unwanted files after using knitr
 \author{
 Kelli Faye Johnson
 }
-

@@ -4,9 +4,20 @@
 \alias{llgridlines}
 \title{Plot long-lat grid over projected data}
 \usage{
-llgridlines(obj, easts, norths, ndiscr = 20, lty = 2, offset = 0.5,
-  side = "WS", llcrs = "+proj=longlat +datum=WGS84", plotLines = TRUE,
-  plotLabels = TRUE, recenter = FALSE, ...)
+llgridlines(
+  obj,
+  easts,
+  norths,
+  ndiscr = 20,
+  lty = 2,
+  offset = 0.5,
+  side = "WS",
+  llcrs = "+proj=longlat +datum=WGS84",
+  plotLines = TRUE,
+  plotLabels = TRUE,
+  recenter = FALSE,
+  ...
+)
 }
 \arguments{
 \item{obj}{object, deriving from Spatial having a defined projection}
@@ -41,10 +52,9 @@ lines and text function for labels}
 Plot long-lat grid over projected data.
 A function taken and adapted from the rgdal package
 }
-\author{
-Kelli Faye Johnson
-}
 \seealso{
 \code{\link{rgdal::llgridlines}}
 }
-
+\author{
+Kelli Faye Johnson
+}

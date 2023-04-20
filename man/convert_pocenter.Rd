@@ -24,10 +24,9 @@ This can also be accompolished using \code{\link{sp::recenter}}.
 This idea was suggested by Greg Snow, 
 and corresponds to the two world representations in the maps package.
 }
-\author{
-Kelli Faye Johnson
-}
 \seealso{
 \code{\link{sp::recenter}}
 }
-
+\author{
+Kelli Faye Johnson
+}

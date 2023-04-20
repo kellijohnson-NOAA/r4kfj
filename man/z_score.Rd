@@ -17,4 +17,3 @@ Z score a data set
 \author{
 Kelli Faye Johnson
 }
-

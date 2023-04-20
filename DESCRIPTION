@@ -10,4 +10,5 @@ Imports:
     sp (>= 1.0-15)
 License: What license is it under?
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 7.2.3
+Encoding: UTF-8

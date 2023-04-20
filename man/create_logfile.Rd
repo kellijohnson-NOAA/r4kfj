@@ -19,4 +19,3 @@ Initialize a log file for the current work
 \author{
 Kelli Faye Johnson
 }
-
