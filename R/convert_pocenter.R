@@ -18,17 +18,17 @@
 #' @seealso \code{\link{sp::recenter}}
 #' @export
 
-convert_pocenter <- function(data){
-    column.lon <- grep("Lon", names(data), ignore.case = TRUE)
-    column.lat <- grep("Lat", names(data), ignore.case = TRUE)
-    if(length(column.lon) != 1){
-        stop("longitude must be a unique column in the data")
-    }
-    if(length(column.lat) != 1){
-        stop("latitude must be a unique column in the data")
-    }
-    ## convert Longitude to Pacific Ocean centered data for plotting
-    data[, column.lon] <- data[, column.lon] %% 360
-    coordinates(data) <- c(column.lon, column.lat)
-    return(data)
+convert_pocenter <- function(data) {
+  column.lon <- grep("Lon", names(data), ignore.case = TRUE)
+  column.lat <- grep("Lat", names(data), ignore.case = TRUE)
+  if(length(column.lon) != 1) {
+    stop("longitude must be a unique column in the data")
+  }
+  if(length(column.lat) != 1) {
+    stop("latitude must be a unique column in the data")
+  }
+  # convert Longitude to Pacific Ocean centered data for plotting
+  data[, column.lon] <- data[, column.lon] %% 360
+  coordinates(data) <- c(column.lon, column.lat)
+  return(data)
 }
