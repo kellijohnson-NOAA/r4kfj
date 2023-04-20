@@ -3,7 +3,7 @@ Title: Functions for Kelli Faye Johnson
 Version: 0.1
 Authors@R: c(person("Kelli", "Johnson",
     email = "kellifayejohnson@gmail.com", role = c("aut", "cre")))
-Description: What the package does (paragraph)
+Description: Includes wrappers for basic R functions.
 Depends:
     R (>= 3.1.0)
 Imports:
