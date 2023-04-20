@@ -1,6 +1,6 @@
 Package: r4kfj
 Title: Functions for Kelli Faye Johnson
-Version: 0.1
+Version: 0.2
 Authors@R: c(person("Kelli", "Johnson",
     email = "kellifayejohnson@gmail.com", role = c("aut", "cre")))
 Description: What the package does (paragraph)
