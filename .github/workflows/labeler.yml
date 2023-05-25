@@ -1,4 +1,4 @@
-name: github
+name: change-labels
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - 'master'
     paths:
       - '.github/labels.yml'
-      - '.github/workflows/labels.yml'
+      - '.github/workflows/labeler.yml'
 
 jobs:
   labeler:
